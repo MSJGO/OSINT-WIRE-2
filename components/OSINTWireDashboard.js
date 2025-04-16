@@ -18,7 +18,11 @@ export default function OSINTWireDashboard() {
       </header>
 
       {/* Profile-Specific Highlights */}
-      {/* everything else remains unchanged */}
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* Highlights will go here (already written in full component) */}
+      </section>
+
+      {/* Additional sections like keyword sentiment, 7-day trends, etc. */}
     </div>
   );
 }

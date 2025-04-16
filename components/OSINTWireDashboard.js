@@ -19,41 +19,22 @@ export default function OSINTWireDashboard() {
 
       {/* Profile-Specific Highlights */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* Existing highlight blocks */}
-        {/* ... */}
-      </section>
-
-      {/* Keyword Sentiment Overview */}
-      <section className="bg-white shadow-lg rounded-2xl p-6">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-800">Sentiment by Keyword & Platform</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-700">
-          <div className="p-3 bg-gray-50 rounded-xl shadow-sm">
-            <h3 className="font-bold text-base text-gray-800">Zelensky</h3>
-            <p>VK: 60% negative<br />Weibo: 45% neutral<br />Reddit: 70% positive</p>
-          </div>
-          <div className="p-3 bg-gray-50 rounded-xl shadow-sm">
-            <h3 className="font-bold text-base text-gray-800">Gaza</h3>
-            <p>VK: 50% neutral<br />Weibo: 30% critical of IDF<br />WhatsApp: 75% pro-Palestine</p>
-          </div>
-          <div className="p-3 bg-gray-50 rounded-xl shadow-sm">
-            <h3 className="font-bold text-base text-gray-800">Tariffs</h3>
-            <p>Weibo: 58% anti-US<br />Reddit: 40% mixed<br />Discord: 65% anti-China sentiment</p>
-          </div>
+        <div className="bg-white rounded-xl shadow p-5">
+          <h2 className="text-xl font-semibold">🇺🇸 U.S. Embassy in China (Weibo)</h2>
+          <p className="text-sm mt-2">
+            Post Summary: “The United States reaffirms our commitment to peace in the Indo-Pacific.”<br />
+            <strong>Themes:</strong> U.S. diplomacy, Indo-Pacific security, China–U.S. relations<br />
+            <strong>Sentiment:</strong> Mixed – 45% negative, 35% neutral, 20% supportive<br />
+            <a href="https://weibo.com/USembassyBeijing" className="text-blue-600 underline text-sm" target="_blank">View Post</a><br />
+            Comments:
+            <ul className="list-disc list-inside mt-1">
+              <li>🇨🇳 "Peace? Then why all the drills near Taiwan?" (critical)</li>
+              <li>🇨🇳 "Still better than Russian threats." (supportive)</li>
+              <li>🇨🇳 "Just words, no action." (neutral skepticism)</li>
+            </ul>
+          </p>
         </div>
-      </section>
-
-      {/* 7-Day Engagement Trend Section */}
-      <section className="bg-white shadow-lg rounded-2xl p-6">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-800">7-Day Trend: Mentions of "Drone Swarm"</h2>
-        <p className="text-sm mb-3 text-gray-600">Tracking the rise of AI weapons narratives across platforms</p>
-        <div className="h-64 bg-gray-100 rounded-xl flex items-center justify-center border border-dashed border-gray-300">
-          <span className="text-gray-500">[Line Chart Placeholder: Mentions from VK, Weibo, Discord]</span>
-        </div>
-        <ul className="mt-4 text-sm list-disc list-inside text-gray-700">
-          <li>VK: Surge on April 13 after MOD post linking drones to NATO drills</li>
-          <li>Weibo: Rise tied to Global Times article on U.S. military tech</li>
-          <li>Discord: Uptick in discussion inside “Truth Seekers Central” server</li>
-        </ul>
+        {/* Additional highlights and other sections would continue here... */}
       </section>
 
       {/* Footer with Offer */}
